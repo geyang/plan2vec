@@ -26,6 +26,7 @@
             position: absolute;
             left: 0;
             right: 0;
+            font-size: 18px;
         }
 
         article {
@@ -33,11 +34,7 @@
             font-size: 100%;
 
             display: grid;
-            grid-template-columns: 1fr 1fr fit-content(600px) 1fr 1fr;
-            grid-column-gap: 20px;
             align-items: center;
-            /*grid-auto-rows: min-content;*/
-            /*grid-row: auto;*/
 
             margin: 0;
             padding-top: 15%;
@@ -61,6 +58,37 @@
 
         #frontmatter p {
             grid-column: 3 / span 1;
+        }
+        #frontmatter iframe {
+            grid-column: 3 / span 1;
+        }
+        article {
+            grid-template-columns: 1fr 140px fit-content(600px) 140px 1fr;
+            grid-column-gap: 20px;
+        }
+        @media only screen and (max-width: 781px) {
+            article {
+                grid-template-columns: 1fr 0 fit-content(600px) 0 1fr;
+                grid-column-gap: 20px;
+            }
+            #frontmatter p {
+                grid-column: 2 / span 3;
+            }
+            #frontmatter iframe {
+                grid-column: 2 / span 3;
+            }
+        }
+        @media only screen and (min-width: 781px) and (max-width: 959px) {
+            article {
+                grid-template-columns: 1fr 1fr fit-content(600px) 1fr 1fr;
+                grid-column-gap: 20px;
+            }
+            #frontmatter p {
+                grid-column: 3 / span 1;
+            }
+            #frontmatter iframe {
+                grid-column: 3 / span 1;
+            }
         }
         #authors a {
             color: inherit;
@@ -94,13 +122,16 @@
             font-size: 100%;
         }
 
-        p, h2, h3 {
+        h2, h3, p {
             text-align: justify;
             text-justify: inter-word;
             grid-column: 2 / span 3;
         }
 
         pre {
+            line-break: anywhere;
+            white-space: pre-wrap;
+            word-wrap: break-word;
             grid-column: 2 / span 3;
         }
 
@@ -112,7 +143,6 @@
 
         iframe.video {
             margin: 1em 0;
-            grid-column: 3 / span 1;
         }
 
         a {
@@ -158,7 +188,8 @@
     <h2>BibTex</h2>
     <pre>@inproceeding{yang2020plan2vec,
     title={Plan2vec: Unsupervised Representation Learning by Latent Plans},
-    author={Yang, Ge and Zhang, Amy and Morcos, Ari S. and Pineau, Joelle and Abbeel, Pieter and Calandra, Roberto},
+    author={Yang, Ge and Zhang, Amy and Morcos, Ari S. and Pineau, Joelle
+            and Abbeel, Pieter and Calandra, Roberto},
     booktitle={},
     year={2020},
     note={arXiv:2004.}
