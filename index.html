@@ -26,7 +26,7 @@
             position: absolute;
             left: 0;
             right: 0;
-            font-size: 18px;
+            font-size: 17px;
         }
 
         article {
@@ -39,6 +39,8 @@
             margin: 0;
             padding-top: min(200px, 12%);
             padding-bottom: 12%;
+
+            line-height: 1.5em;
         }
 
         #frontmatter {
@@ -134,6 +136,13 @@
             white-space: pre-wrap;
             word-wrap: break-word;
             grid-column: 2 / span 3;
+            transition: all 1s;
+            padding: 1em 0;
+            border-radius: 7px;
+            font-size: 95%;
+        }
+        pre:hover {
+            background: #eee;
         }
 
         sup {
