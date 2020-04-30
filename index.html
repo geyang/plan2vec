@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plan2Vec: Unsupervised Representation Learning by Latent Plans</title>
+    <meta name="description"
+          content="we introduce plan2vec, an unsupervised representation learning
+          approach that is inspired by reinforcement learning. Plan2vec constructs
+          a weighted graph on an image dataset using near-neighbor distances, and
+          then extrapolates this local metric to a global embedding by distilling
+          path-integral over planned path. When applied to control, plan2vec offers
+          a way to learn goal-conditioned value estimates that are accurate over
+          long horizons that is both compute and sample efficient. We demonstrate
+          the effectiveness of plan2vec on one simulated and two challenging real-world
+          image datasets. Experimental results show that plan2vec successfully
+          amortizes the planning cost, enabling reactive planning that is linear
+          in memory and computation complexity rather than exhaustive over the entire
+          state space.">
+    <meta name="keywords" content="Contrastive Learning, Deep Reinforcement Learning, Universal Value Function">
+    <meta name="author" content="Ge Yang <ge.ike.yang@gmail.com>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+
+        article {
+            font-family: Georgia, Times New Roman, Times, serif;
+            font-size: 100%;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr fit-content(600px) 1fr 1fr;
+            grid-column-gap: 20px;
+            align-items: center;
+            /*grid-auto-rows: min-content;*/
+            /*grid-row: auto;*/
+
+            margin: 0;
+            padding-top: 15%;
+        }
+
+        #frontmatter {
+            display: contents
+        }
+
+        #frontmatter > h1,
+        #frontmatter > h2,
+        #frontmatter > h3 {
+            text-align: center;
+            grid-column: 2 / span 3;
+        }
+
+        #frontmatter h3 {
+            font-size: 100%;
+            font-weight: 100;
+        }
+
+        #frontmatter p {
+            grid-column: 3 / span 1;
+        }
+
+        h1 {
+            font-size: 150%;
+        }
+
+        h2 {
+            font-size: 110%
+        }
+
+        h3, h4, h5, h6, p {
+            font-size: 100%;
+        }
+
+        p, h2, h3 {
+            text-align: justify;
+            text-justify: inter-word;
+            grid-column: 2 / span 3;
+        }
+
+        pre {
+            grid-column: 2 / span 3;
+        }
+
+        sup {
+            position: relative;
+            left: -0.25em;
+            margin-right: -0.25em;
+        }
+
+        iframe.video {
+            margin: 1em 0;
+            grid-column: 3 / span 1;
+        }
+
+        a {
+            color: #345cc1;
+            text-decoration: none;
+        }
+        #links {
+            font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace
+        }
+    </style>
+</head>
+<body>
+<article>
+    <section id="frontmatter">
+        <h1>Plan2Vec: Unsupervised Representation Learning by Latent Plans</h1>
+        <h2 id="authors" style="margin-bottom: 0;">Ge Yang,<sup>*†</sup> Amy Zhang,<sup>*†</sup> Ari S.
+            Morcos<sup>†</sup>,
+            Joelle Pineau,<sup>†§</sup> Pieter Abbeel,<sup>‡</sup> Roberto Calandra<sup>†</sup></h2>
+        <h3 style="margin-top: 10px;"><sup>*</sup>Equal Contribution, <sup>†</sup>Facebook AI Research,
+            <sup>§</sup>McGill University, <sup>‡</sup>UC Berkeley</h3>
+        <h3 id="links">
+            <a href="https://github.com/episodeyang/plan2vec">[Code]</a>
+            <a href="https://arxiv.org">[Paper]</a>
+            <a href="https://github.com/episodeyang/plan2vec/master/blob/slides">[Slides]</a>
+        </h3>
+        <h2>Overview</h2>
+        <p>Plan2vec is an unsupervised representation learning method that uses <i>graph-search</i> to learn
+            long-horizon relationships between images.</p>
+        <iframe class="video" width="100%" height="338px" src="https://www.youtube.com/embed/cnSORUnEPOI?rel=0"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </section>
+    <h2 id="abstract">Abstract</h2>
+    <p>In this paper we introduce plan2vec, an unsupervised representation learning approach that is inspired by
+        reinforcement learning. Plan2vec constructs a weighted graph on an image dataset using near-neighbor
+        distances,
+        and then extrapolates this local metric to a global embedding by distilling path-integral over planned path.
+        When applied to control, plan2vec offers a way to learn goal-conditioned value estimates that are accurate
+        over
+        long horizons that is both compute and sample efficient. We demonstrate the effectiveness of plan2vec on one
+        simulated and two challenging real-world image datasets. Experimental results show that plan2vec
+        successfully
+        amortizes the planning cost, enabling reactive planning that is linear in memory and computation complexity
+        rather than exhaustive over the entire state space.</p>
+    <h2>BibTex</h2>
+    <pre>@inproceeding{yang2020plan2vec,
+    title={Plan2vec: Unsupervised Representation Learning by Latent Plans},
+    author={Yang, Ge and Zhang, Amy and Morcos, Ari S. and Pineau, Joelle and Abbeel, Pieter and Calandra, Roberto},
+    booktitle={},
+    year={2020},
+    note={arXiv:2004.}
+}</pre>
+</article>
+</body>
+</html>
