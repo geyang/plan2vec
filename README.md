@@ -2,7 +2,7 @@
 
 Official release for [Plan2Vec](https://episodeyang.github.io/plan2vec).
 
-![Overview of Plan2vec](figures/plan2vec_main.png)
+<p align="center"><img alt="Overview of Plan2vec" src="figures/plan2vec_main.png"/></p>
 
 ## BibTex
 
