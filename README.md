@@ -4,8 +4,6 @@ Official release for [Plan2Vec](https://episodeyang.github.io/plan2vec).
 
 <p align="center"><img alt="Overview of Plan2vec" src="figures/plan2vec_main.png" width="788" height="175"/></p>
 
-<img align="right" alt="Algorithm" src="figures/plan2vec_alg_1.png" width="457" height="221"/>
-
 ## Getting Started
 
 > Under review, coming soon.
