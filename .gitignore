@@ -1,0 +1,12 @@
+**/.DS_Store
+.yours
+.idea
+__pycache__
+*.pyc
+data
+datasets
+*jaynes.yml
+*.egg-info
+**/videos
+**/data
+**/training
