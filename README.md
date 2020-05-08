@@ -2,7 +2,7 @@
 
 **Official repo for [Plan2Vec](https://geyang.github.io/plan2vec).**
 
-We are working on a clean implementation of the expert distillation variant of the plan2vec algorithm. We include results on the simulated navigation domain and  the StreetLearn dataset.
+We are working on a clean implementation of the expert distillation variant of the plan2vec algorithm for public release.
 
 <p align="center"><img alt="Overview of Plan2vec" src="figures/plan2vec_main.png" width="788" height="175"/></p>
 
