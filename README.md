@@ -1,10 +1,12 @@
 # Plan2Vec: Unsupervised Representation Learning by Latent Plans 
 
-**Official release for [Plan2Vec](https://geyang.github.io/plan2vec).**
+**Official repo for [Plan2Vec](https://geyang.github.io/plan2vec).**
 
 This codebase contains a clean implementation of the expert distillation variant of the plan2vec algorithm. We include results on simulated visual navigation and the Street Learn dataset.
 
 <p align="center"><img alt="Overview of Plan2vec" src="figures/plan2vec_main.png" width="788" height="175"/></p>
+
+## Code
 
 > Coming soon.
 
