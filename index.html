@@ -5,7 +5,6 @@
     <title>Plan2Vec: Unsupervised Representation Learning by Latent Plans</title>
     <meta property="og:title" content="Plan2Vec: Unsupervised Representation Learning by Latent Plans">
     <meta name="description"
-          property="og:description"
           content="we introduce plan2vec, an unsupervised representation learning
           approach that is inspired by reinforcement learning. Plan2vec constructs
           a weighted graph on an image dataset using near-neighbor distances, and
@@ -21,6 +20,19 @@
     <meta name="keywords" content="Contrastive Learning, Deep Reinforcement Learning, Universal Value Function">
     <meta name="author" content="Ge Yang <ge.ike.yang@gmail.com>">
     <meta property="og:image" content="thumbnail.png">
+    <meta property="og:description"
+          content="we introduce plan2vec, an unsupervised representation learning
+          approach that is inspired by reinforcement learning. Plan2vec constructs
+          a weighted graph on an image dataset using near-neighbor distances, and
+          then extrapolates this local metric to a global embedding by distilling
+          path-integral over planned path. When applied to control, plan2vec offers
+          a way to learn goal-conditioned value estimates that are accurate over
+          long horizons that is both compute and sample efficient. We demonstrate
+          the effectiveness of plan2vec on one simulated and two challenging real-world
+          image datasets. Experimental results show that plan2vec successfully
+          amortizes the planning cost, enabling reactive planning that is linear
+          in memory and computation complexity rather than exhaustive over the entire
+          state space.">
     <style>
         body {
             margin: 0;
