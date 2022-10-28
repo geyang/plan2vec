@@ -1,0 +1,12 @@
+keys:
+- Args.data_path
+- Args.lr
+charts:
+- type: file
+  glob: "**/*.png"
+- yKey: accuracy-1.1/mean
+  xKey: epoch
+  yDomain: [0.8, 1]
+- yKey: accuracy-1.5/mean
+  xKey: epoch
+  yDomain: [0.8, 1]

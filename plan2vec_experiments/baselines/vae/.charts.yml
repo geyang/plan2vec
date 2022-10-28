@@ -1,0 +1,11 @@
+keys:
+  - Args.lr
+  - Args.latent_dim
+  - Args.seed
+charts:
+  - yKey: loss/mean
+    xKey: epoch
+  - type: image
+    glob: "**/vae_*.png"
+  - type: image
+    glob: "**/embed_*.png"

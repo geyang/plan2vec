@@ -1,0 +1,10 @@
+charts:
+  - {xKey: epoch, yKey: accuracy/mean, yDomain: [0.8, 1]}
+  - {xKey: epoch, yKey: accuracy/1/mean, yDomain: [0.8, 1]}
+  - {xKey: epoch, yKey: accuracy/2/mean, yDomain: [0.8, 1]}
+  - type: image
+    glob: figures/score_vs_l1*
+keys:
+  - run.status
+  - Args.lr
+  - Args.seed

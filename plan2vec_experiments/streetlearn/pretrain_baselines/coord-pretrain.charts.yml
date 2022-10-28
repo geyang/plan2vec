@@ -1,0 +1,14 @@
+keys:
+  - DEBUG.data_path
+  - DEBUG.global_metric
+  - DEBUG.pretrain_lr
+  - Args.lr
+charts:
+  - type: file
+    glob: "pretrain/**/embed*.png"
+  - type: file
+    glob: "figures/**/embed*.png"
+  - yKey: pretrain/loss/mean
+    xKey: pretrain/epoch
+  - yKey: loss/mean
+    xKey: epoch

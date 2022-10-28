@@ -1,0 +1,19 @@
+keys:
+  - Args.data_path
+  - Args.global_metric
+  - Args.binary_reward
+  - Args.term_r
+  - DEBUG.ground_truth_neighbor_r
+charts:
+  - type: file
+    glob: "**/*.png"
+  - type: file
+    title: "Goal Sample Range"
+    glob: "debug/goals*.png"
+  - type: file
+    title: "Neighbor Function Range"
+    glob: "debug/neighbors*.png"
+  - type: file
+    glob: "debug/score_*.png"
+  - yKey: success_rate
+    xKey: epoch

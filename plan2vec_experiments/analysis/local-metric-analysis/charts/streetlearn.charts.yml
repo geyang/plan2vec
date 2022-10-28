@@ -1,0 +1,11 @@
+charts:
+  - {xKey: epoch, yKey: accuracy-0.5/mean, yDomain: [0.8, 1]}
+  - {xKey: epoch, yKey: accuracy-1.1/mean, yDomain: [0.8, 1]}
+  - {xKey: epoch, yKey: accuracy-1.5/mean, yDomain: [0.8, 1]}
+  - type: image
+    glob: figures/*/score_vs_timesteps*
+keys:
+  - run.status
+  - Args.lr
+  - Args.K
+  - Args.seed

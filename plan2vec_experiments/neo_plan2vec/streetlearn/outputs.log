@@ -1,0 +1,60 @@
+══════════════════════════════════════════
+[33m      EvalArgs      [0m
+────────────────────┬─────────────────────
+        seed        │ 10                  
+       env_id       │ manhattan-tiny      
+     input_dim      │ 1                   
+     latent_dim     │ 2                   
+      metric_p      │ 1                   
+     view_mode      │ omni-gray           
+       n_envs       │ 10                  
+    num_rollouts    │ 200                 
+       limit        │ 2                   
+     neighbor_r     │ 0.00024             
+   neighbor_r_min   │ None                
+      h_scale       │ 1.2                 
+     search_alg     │ a_star              
+     num_epochs     │ 800                 
+     batch_size     │ 10                  
+   global_metric    │ ResNet18L2          
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[33m       DEBUG        [0m
+────────────────────┬─────────────────────
+  supervise_value   │ False               
+════════════════════╧═════════════════════
+[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-tiny/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-tiny/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-tiny/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-small/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-small/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-small/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-medium/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-small/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-small/view_512/chunk_0000.npy']
+[0m[32m['/Users/ge/fair/streetlearn/processed-data/manhattan-small/view_512/chunk_0000.npy']
+[0m

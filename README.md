@@ -8,7 +8,12 @@ We are working on a clean implementation of the expert distillation variant of t
 
 ## Code
 
-> Coming soon.
+This code base has been split up into a few different components that each lives in its own repository.
+- For planning, code, refer to the `graph-search` package on PyPI (https://github.com/geyang/graph-search). This is my canonical implementation of the graph planning algorithms and is used in a number of other projects. This repo contains visualization of planing results. 
+- Here is the pre-processing pipeline for the StreetLearn dataset. I reverse engineered the buffer format: https://github.com/geyang/streetlearn
+- The `plan2vec` module should be inside [./plan2vec](./plan2vec). The best result was given under the supervised mode, where the distance between samples are given by the shortest path between the corresponding nodes on the graph.
+
+All experiment scripts live in the `plan2vec_experiments` folder.
 
 ## BibTex
 

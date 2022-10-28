@@ -1,0 +1,331 @@
+══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+     batch_size     │ 100                 
+     n_workers      │ 5                   
+     pin_memory     │ True                
+     latent_dim     │ 2                   
+   download_mnist   │ False               
+      n_epochs      │ 100                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+════════════════════╧═════════════════════
+══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeImgIdLess-v0   
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+       limit        │ 2                   
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 10                  
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 2                   
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+        seed        │ 100                 
+       env_id       │ CMazeDiscreteImgIdLess-v0
+    num_rollouts    │ 400                 
+      obs_keys      │ ('img', 'x')        
+     image_key      │ img                 
+       limit        │ 2                   
+       k_fold       │ None                
+     input_dim      │ 1                   
+      act_dim       │ 2                   
+      obs_dim       │ 8                   
+     latent_dim     │ 2                   
+     batch_size     │ 100                 
+  test_batch_size   │ 2                   
+      n_epochs      │ 400                 
+         lr         │ 0.0001              
+     optimizer      │ Adam                
+      use_gpu       │ True                
+   debug_interval   │ 10                  
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[32mseed 100 has finished sampling.
+[0m

@@ -1,0 +1,7 @@
+keys:
+  - run.status
+  - Args.load_local_metric
+charts:
+  - {type: file, glob: "**/*state.png"}
+  - {type: file, glob: "**/*gt.png"}
+  - {type: file, glob: "**/*gt_wider.png"}

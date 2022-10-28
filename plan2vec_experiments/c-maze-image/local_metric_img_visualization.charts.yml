@@ -1,0 +1,15 @@
+charts:
+  - type: file
+    glob: "**/*render.png"
+  - type: file
+    glob: "**/*data.png"
+  - type: file
+    glob: "**/*connected.png"
+  - type: file
+    glob: "**/*gt.png"
+  - type: file
+    glob: "**/*gt_wider.png"
+keys:
+  - run.status
+  - Args.env_id
+  - Args.load_local_metric

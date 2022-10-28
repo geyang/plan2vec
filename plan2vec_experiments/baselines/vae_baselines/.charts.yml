@@ -1,0 +1,9 @@
+keys:
+  - Args.env_id
+  - Args.global_metric
+  - Args.term_r
+  - Args.plan_steps
+charts:
+  - yKey: success_rate
+    k: 2
+    yDomain: [0, 1]

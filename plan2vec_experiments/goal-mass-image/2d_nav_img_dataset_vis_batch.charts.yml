@@ -1,0 +1,13 @@
+keys:
+- Args.env_id
+- Args.lr
+- Args.seed
+- Args.n_rollouts
+- Args.load_local_metric
+charts:
+- type: file
+  glob: "**/*wide*"
+- type: file
+  glob: "**/*connect*"
+- type: file
+  glob: "**/*data*"

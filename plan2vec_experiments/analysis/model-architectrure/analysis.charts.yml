@@ -1,0 +1,2 @@
+charts:
+  - {glob: 'figures/*.png', type: file}

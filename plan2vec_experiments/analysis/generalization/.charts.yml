@@ -1,0 +1,16 @@
+charts:
+  - yKey: train/loss/mean
+    xKey: epoch
+  - yKey: eval/mse/mean
+    xKey: epoch
+  - yKey: eval/rms/mean
+    xKey: epoch
+  - yKey: eval/error/mean
+    xKey: epoch
+keys:
+  - run.status
+  - Args.env_id
+  - Args.latent_dim
+  - DEBUG.supervised_value_fn
+  - {metrics: success_rate/mean}
+

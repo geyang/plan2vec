@@ -1,0 +1,221 @@
+══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+       env_id       │ 回MazeDiscreteIdLess-v0
+        seed        │ 0                   
+     n_rollouts     │ 200                 
+      num_envs      │ 20                  
+     timesteps      │ 10                  
+     latent_dim     │ 50                  
+ load_local_metric  │ /episodeyang/plan2vec/2019/05-13/回-maze/回_maze_local_metric/13.06/48.004024/models/local_metric.pkl
+       top_k        │ 50                  
+       term_r       │ 1                   
+include_traj_neighbors│ True                
+     plan_steps     │ 3                   
+      r_scale       │ 0.2                 
+     num_epochs     │ 5000                
+      batch_n       │ 20                  
+         H          │ 50                  
+       gamma        │ 1                   
+     eps_greedy     │ 0.05                
+     relabel_k      │ 5                   
+    optim_steps     │ 6                   
+  optim_batch_size  │ 32                  
+   target_update    │ 0.95                
+         lr         │ 0.0001              
+evaluation_interval │ 10                  
+visualization_interval│ 10                  
+   binary_reward    │ False               
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[33m       DEBUG        [0m
+────────────────────┬─────────────────────
+supervised_value_fn │ False               
+  oracle_planning   │ False               
+ oracle_eps_greedy  │ False               
+   random_policy    │ False               
+  real_r_distance   │ False               
+   use_true_goals   │ True                
+ground_truth_neighbor_r│ False               
+════════════════════╧═════════════════════
+══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+       env_id       │ 回MazeDiscreteIdLess-v0
+        seed        │ 0                   
+     n_rollouts     │ 200                 
+      num_envs      │ 20                  
+     timesteps      │ 10                  
+     latent_dim     │ 50                  
+ load_local_metric  │ /episodeyang/plan2vec/2019/05-13/回-maze/回_maze_local_metric/13.06/48.004024/models/local_metric.pkl
+       top_k        │ 50                  
+       term_r       │ 1                   
+include_traj_neighbors│ True                
+     plan_steps     │ 3                   
+      r_scale       │ 0.2                 
+     num_epochs     │ 5000                
+      batch_n       │ 20                  
+         H          │ 50                  
+       gamma        │ 1                   
+     eps_greedy     │ 0.05                
+     relabel_k      │ 5                   
+    optim_steps     │ 6                   
+  optim_batch_size  │ 32                  
+   target_update    │ 0.95                
+         lr         │ 0.0001              
+evaluation_interval │ 10                  
+visualization_interval│ 10                  
+   binary_reward    │ False               
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[33m       DEBUG        [0m
+────────────────────┬─────────────────────
+supervised_value_fn │ False               
+  oracle_planning   │ False               
+ oracle_eps_greedy  │ False               
+   random_policy    │ False               
+  real_r_distance   │ False               
+   use_true_goals   │ True                
+ground_truth_neighbor_r│ False               
+════════════════════╧═════════════════════
+══════════════════════════════════════════
+[33m        env         [0m
+────────────────────┬─────────────────────
+      discrete      │ True                
+      id_less       │ True                
+     act_scale      │ 0.5                 
+════════════════════╧═════════════════════
+══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+       env_id       │ 回MazeDiscreteIdLess-v0
+        seed        │ 0                   
+     n_rollouts     │ 200                 
+      num_envs      │ 20                  
+     timesteps      │ 10                  
+     latent_dim     │ 50                  
+ load_local_metric  │ /episodeyang/plan2vec/2019/05-13/回-maze/回_maze_local_metric/13.06/48.004024/models/local_metric.pkl
+       top_k        │ 50                  
+       term_r       │ 1                   
+include_traj_neighbors│ True                
+     plan_steps     │ 3                   
+      r_scale       │ 0.2                 
+     num_epochs     │ 5000                
+      batch_n       │ 20                  
+         H          │ 50                  
+       gamma        │ 1                   
+     eps_greedy     │ 0.05                
+     relabel_k      │ 5                   
+    optim_steps     │ 6                   
+  optim_batch_size  │ 32                  
+   target_update    │ 0.95                
+         lr         │ 0.0001              
+evaluation_interval │ 10                  
+visualization_interval│ 10                  
+   binary_reward    │ False               
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[33m       DEBUG        [0m
+────────────────────┬─────────────────────
+supervised_value_fn │ False               
+  oracle_planning   │ False               
+ oracle_eps_greedy  │ False               
+   random_policy    │ False               
+  real_r_distance   │ False               
+   use_true_goals   │ True                
+ground_truth_neighbor_r│ False               
+════════════════════╧═════════════════════
+══════════════════════════════════════════
+[33m        env         [0m
+────────────────────┬─────────────────────
+      discrete      │ True                
+      id_less       │ True                
+     act_scale      │ 0.5                 
+════════════════════╧═════════════════════
+══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+       env_id       │ 回MazeDiscreteIdLess-v0
+        seed        │ 0                   
+     n_rollouts     │ 200                 
+      num_envs      │ 20                  
+     timesteps      │ 10                  
+     latent_dim     │ 50                  
+ load_local_metric  │ /episodeyang/plan2vec/2019/05-13/回-maze/回_maze_local_metric/13.06/48.004024/models/local_metric.pkl
+       top_k        │ 50                  
+       term_r       │ 1                   
+include_traj_neighbors│ True                
+     plan_steps     │ 3                   
+      r_scale       │ 0.2                 
+     num_epochs     │ 5000                
+      batch_n       │ 20                  
+         H          │ 50                  
+       gamma        │ 1                   
+     eps_greedy     │ 0.05                
+     relabel_k      │ 5                   
+    optim_steps     │ 6                   
+  optim_batch_size  │ 32                  
+   target_update    │ 0.95                
+         lr         │ 0.0001              
+evaluation_interval │ 10                  
+visualization_interval│ 10                  
+   binary_reward    │ False               
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[33m       DEBUG        [0m
+────────────────────┬─────────────────────
+supervised_value_fn │ False               
+  oracle_planning   │ False               
+ oracle_eps_greedy  │ False               
+   random_policy    │ False               
+  real_r_distance   │ False               
+   use_true_goals   │ True                
+ground_truth_neighbor_r│ False               
+════════════════════╧═════════════════════
+══════════════════════════════════════════
+[33m        env         [0m
+────────────────────┬─────────────────────
+      discrete      │ True                
+      id_less       │ True                
+     act_scale      │ 0.5                 
+════════════════════╧═════════════════════
+══════════════════════════════════════════
+[33m        Args        [0m
+────────────────────┬─────────────────────
+       env_id       │ 回MazeDiscreteIdLess-v0
+        seed        │ 0                   
+     n_rollouts     │ 200                 
+      num_envs      │ 20                  
+     timesteps      │ 10                  
+     latent_dim     │ 50                  
+ load_local_metric  │ /episodeyang/plan2vec/2019/05-13/回-maze/回_maze_local_metric/13.06/48.004024/models/local_metric.pkl
+       top_k        │ 50                  
+       term_r       │ 1                   
+include_traj_neighbors│ True                
+     plan_steps     │ 3                   
+      r_scale       │ 0.2                 
+     num_epochs     │ 5000                
+      batch_n       │ 20                  
+         H          │ 50                  
+       gamma        │ 1                   
+     eps_greedy     │ 0.05                
+     relabel_k      │ 5                   
+    optim_steps     │ 6                   
+  optim_batch_size  │ 32                  
+   target_update    │ 0.95                
+         lr         │ 0.0001              
+evaluation_interval │ 10                  
+visualization_interval│ 10                  
+   binary_reward    │ False               
+       device       │ cpu                 
+════════════════════╧═════════════════════
+[33m       DEBUG        [0m
+────────────────────┬─────────────────────
+supervised_value_fn │ False               
+  oracle_planning   │ False               
+ oracle_eps_greedy  │ False               
+   random_policy    │ False               
+  real_r_distance   │ False               
+   use_true_goals   │ True                
+ground_truth_neighbor_r│ False               
+════════════════════╧═════════════════════

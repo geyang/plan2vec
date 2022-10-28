@@ -1,0 +1,24 @@
+charts:
+  - {xKey: epoch, yKey: episode_len/25}
+  - xKey: epoch
+    yDomain: [0, 1]
+    yKey: eval/success_rate/mean
+  - xKey: epoch
+    yDomain: [0, 1]
+    yKey: success_rate/mean
+  - {glob: '**/neighborhood*', type: file}
+  - {glob: '**/value*', type: file}
+  - {yKey: value/mean}
+  - {yKey: episode_len/mean}
+keys:
+  - run.status
+  - Args.plan_steps
+  - Args.lr
+  - Args.eps_greedy
+  - Args.binary_reward
+  - Args.term_r
+  - DEBUG.ground_truth_neighbor_r
+  - DEBUG.supervised_value_fn
+  - {metrics: episode_len/25}
+  - {metrics: eval/success_rate/mean, last: 20}
+  - {metrics: success_rate/mean, last: 20}

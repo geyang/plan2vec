@@ -1,0 +1,13 @@
+charts:
+  - {glob: "figures/**/embed*.png", type: file}
+  - {xKey: epoch, yKey: "success_rate/mean", yDomain: [0, 1]}
+keys:
+  - run.status
+  - Args.n_rollouts
+  - Args.global_metric
+  - Args.lr
+  - Args.loss
+  - {metrics: success_rate / mean}
+  - DEBUG.global_pretrain
+  - DEBUG.ground_truth_success
+  - DEBUG.ground_truth_neighbor_r

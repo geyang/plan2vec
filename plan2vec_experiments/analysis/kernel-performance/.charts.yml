@@ -1,0 +1,15 @@
+charts:
+  - {glob: '**/value*.png', type: file}
+  - yDomain: [0, 1]
+    yKey: success_rate/mean
+    xKey: epoch
+  - yDomain: [0, 51]
+    yKey: episode_len/mean
+    xKey: epoch
+keys:
+  - run.status
+  - Args.env_id
+  - Args.latent_dim
+  - DEBUG.supervised_value_fn
+  - {metrics: success_rate/mean}
+

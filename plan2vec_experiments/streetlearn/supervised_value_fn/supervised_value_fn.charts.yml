@@ -1,0 +1,14 @@
+keys:
+  - Args.data_path
+  - Args.global_metric
+  - Args.term_r
+  - DEBUG.ground_truth_neighbor_r
+charts:
+  - type: file
+    glob: "**/*.png"
+  - type: file
+    glob: "debug/Score vs Ground-truth Distance.png"
+  - type: file
+    glob: "debug/plan_score_ground-truth Distance.png"
+  - yKey: success_rate
+    xKey: epoch

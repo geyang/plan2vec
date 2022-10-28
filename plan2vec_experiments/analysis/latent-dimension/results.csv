@@ -1,0 +1,22 @@
+Args.env_id,Args.global_metric,Args.latent_dim,success_rate (%),±25%
+GoalMassDiscreteIdLess-v0,GlobalMetricMlp,2,6.1,4.2
+GoalMassDiscreteIdLess-v0,GlobalMetricMlp,3,40.5,8.0
+GoalMassDiscreteIdLess-v0,GlobalMetricMlp,10,99.9,0.0
+GoalMassDiscreteIdLess-v0,GlobalMetricMlp,30,99.8,0.0
+GoalMassDiscreteIdLess-v0,GlobalMetricMlp,50,75.6,5.6
+GoalMassDiscreteIdLess-v0,GlobalMetricMlp,100,99.8,0.0
+GoalMassDiscreteIdLess-v0,GlobalMetricMlp,200,93.6,2.4
+回MazeDiscreteIdLess-v0,GlobalMetricMlp,2,6.1,4.8
+回MazeDiscreteIdLess-v0,GlobalMetricMlp,3,70.5,21.4
+回MazeDiscreteIdLess-v0,GlobalMetricMlp,10,95.8,1.9
+回MazeDiscreteIdLess-v0,GlobalMetricMlp,30,95.6,1.7
+回MazeDiscreteIdLess-v0,GlobalMetricMlp,50,95.5,1.9
+回MazeDiscreteIdLess-v0,GlobalMetricMlp,100,94.6,2.2
+回MazeDiscreteIdLess-v0,GlobalMetricMlp,200,95.7,1.6
+CMazeDiscreteIdLess-v0,GlobalMetricMlp,2,6.4,4.8
+CMazeDiscreteIdLess-v0,GlobalMetricMlp,3,82.7,3.7
+CMazeDiscreteIdLess-v0,GlobalMetricMlp,10,78.8,4.2
+CMazeDiscreteIdLess-v0,GlobalMetricMlp,30,80.0,4.3
+CMazeDiscreteIdLess-v0,GlobalMetricMlp,50,65.1,6.6
+CMazeDiscreteIdLess-v0,GlobalMetricMlp,100,82.2,3.6
+CMazeDiscreteIdLess-v0,GlobalMetricMlp,200,70.0,5.7

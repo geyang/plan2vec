@@ -1,0 +1,9 @@
+keys:
+  - DEBUG.oracle_planner
+  - Args.optim_epoch
+  - Args.data_path
+charts:
+  - yKey: success_rate
+    xKey: epoch
+    yDomain: [0, 1]
+    k: 2
